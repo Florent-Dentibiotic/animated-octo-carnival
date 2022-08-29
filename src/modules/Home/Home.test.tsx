@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
-import Header from './Header';
+import Home from './Home';
 
-describe('Header', () => {
+describe('Home', () => {
   it('should render correctly', () => {
-    render(<Header />);
+    render(<Home />);
   });
 });

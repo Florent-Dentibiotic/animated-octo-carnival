@@ -15,9 +15,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        'dentibiotest-blue': '#3E64C2',
-        'dentibiotest-blue-400': '#7E94CC',
-        'dentibiotest-blue-200': '#ECEFF9',
+        'dentibiotic-blue': '#3E64C2',
+        'dentibiotic-blue-400': '#7E94CC',
+        'dentibiotic-blue-200': '#ECEFF9',
       },
     },
   },
