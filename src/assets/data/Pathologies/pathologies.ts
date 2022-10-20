@@ -2,28 +2,55 @@ const pathologies = [
   {
     title: 'Maladies cardio-vasculaires',
     list: [
-      'Hypertension artérielle',
-      'Maladie coronarienne, angor et infarctus du myocarde',
-      'Arythmies cardiaques, pacemaker et défibrillateur implantable',
-      'Insuffisance cardiaque',
-      "Patient à risque d'endocardite infectieuse",
+      { name: 'Hypertension artérielle', id: 100 },
+      {
+        name: 'Maladie coronarienne, angor et infarctus du myocarde',
+        id: 101,
+      },
+      {
+        name: 'Arythmies cardiaques, pacemaker et défibrillateur implantable',
+        id: 102,
+      },
+      { name: 'Insuffisance cardiaque', id: 103 },
+      { name: "Patient à risque d'endocardite infectieuse", id: 104 },
     ],
   },
   {
     title: 'Maladie respiratoire',
-    list: ['Asthme'],
+    list: [{ name: 'Asthme', id: 200 }],
   },
   {
     title: 'Maladies hépatiques et gastro-intestinales',
     list: [
-      'Hépatites virales',
-      'Insuffisance hépatique et cirrhose',
-      'Maladies inflammatoires chroniques intestinales',
+      { name: 'Hépatites virales', id: 300 },
+      { name: 'Insuffisance hépatique et cirrhose', id: 301 },
+      { name: 'Maladies inflammatoires chroniques intestinales', id: 302 },
     ],
   },
   {
     title: 'Maladie rénale',
-    list: ['Insuffisance rénale chronique et dialyse'],
+    list: [{ name: 'Insuffisance rénale chronique et dialyse', id: 400 }],
+  },
+  {
+    title: "Troubles de l'hémostase",
+    list: [
+      { name: 'Trombopénie', id: 500 },
+      {
+        name: 'Hémophilie, maladie de Willebrand et autres déficits en facteur de coagulation',
+        id: 501,
+      },
+    ],
+  },
+  {
+    title: "Troubles de l'immunité",
+    list: [{ name: 'VIH et SIDA', id: 600 }],
+  },
+  {
+    title: 'Autres',
+    list: [
+      { name: 'Dépression', id: 700 },
+      { name: 'Toxicomanie', id: 701 },
+    ],
   },
 ];
 

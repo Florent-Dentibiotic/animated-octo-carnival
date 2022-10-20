@@ -1,11 +1,7 @@
-interface HypertensionProps {
-  [key: string]: any;
-}
-
-const Hypertension: HypertensionProps = {
-  id: 100,
+const MaladieCoronarienne = {
+  id: 101,
   type: 'Maladies cardio-vasculaires',
-  title: 'Hypertension artérielle',
+  title: 'Maladie coronarienne, angor et infarctus du myocarde',
   general: {
     definition: [
       "L'Hypertension Artérielle (HTA) se définit par une Pression Artérielle Systolique (PAS) ≥ 140 mmHg et/ou une Pression Artérielle Diastolique (PAD) ≥ 90 mmHg.",
@@ -45,4 +41,4 @@ const Hypertension: HypertensionProps = {
   },
 };
 
-export default Hypertension;
+export default MaladieCoronarienne;
